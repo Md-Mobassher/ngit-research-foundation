@@ -6,48 +6,44 @@ import Link from "next/link";
 
 const navItem = (
   <>
-    <div className="bg-white px-5 py-2 rounded text-md font-semibold text-black hover:bg-blue-500 hover:text-white">
-      <Link className="rounded-lg" href="/about">
+    <Link className="rounded-lg" href="/about">
+      <div className="bg-white px-5 py-2 rounded text-md font-semibold text-black hover:bg-blue-500 hover:text-white">
         About
-      </Link>
-    </div>
-    <div className="bg-white px-5 py-2 rounded text-md font-semibold text-black hover:bg-blue-500 hover:text-white">
-      <Link className="rounded-lg" href="/research">
+      </div>
+    </Link>
+    <Link className="rounded-lg" href="/research">
+      <div className="bg-white px-5 py-2 rounded text-md font-semibold text-black hover:bg-blue-500 hover:text-white">
         Research
-      </Link>
-      {/* <ul tabindex="0" className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-                     <li><Link className='rounded-lg' href='/people'>People</Link></li>
-                     <li><Link className='rounded-lg' href='/publications'>Publications</Link></li>
-                </ul> */}
-    </div>
+      </div>
+    </Link>
 
-    <div className="bg-white px-5 py-2 rounded text-md font-semibold text-black hover:bg-blue-500 hover:text-white">
-      <Link className="rounded-lg" href="/people">
+    <Link className="rounded-lg" href="/people">
+      <div className="bg-white px-5 py-2 rounded text-md font-semibold text-black hover:bg-blue-500 hover:text-white">
         People
-      </Link>
-    </div>
-    <div className="bg-white px-5 py-2 rounded text-md font-semibold text-black hover:bg-blue-500 hover:text-white">
-      <Link className="rounded-lg" href="/publications">
+      </div>
+    </Link>
+    <Link className="rounded-lg" href="/publications">
+      <div className="bg-white px-5 py-2 rounded text-md font-semibold text-black hover:bg-blue-500 hover:text-white">
         Publications
-      </Link>
-    </div>
-    <div className="bg-white px-5 py-2 rounded text-md font-semibold text-black hover:bg-blue-500 hover:text-white">
-      <Link className="rounded-lg" href="/resource">
+      </div>
+    </Link>
+    <Link className="rounded-lg" href="/resource">
+      <div className="bg-white px-5 py-2 rounded text-md font-semibold text-black hover:bg-blue-500 hover:text-white">
         Resources
-      </Link>
-    </div>
-    <div className="bg-white px-5 py-2 rounded text-md font-semibold text-black hover:bg-blue-500 hover:text-white">
-      <Link className="rounded-lg" href="/more">
+      </div>
+    </Link>
+    <Link className="rounded-lg" href="/more">
+      <div className="bg-white px-5 py-2 rounded text-md font-semibold text-black hover:bg-blue-500 hover:text-white">
         More
-      </Link>
-    </div>
+      </div>
+    </Link>
   </>
 );
 
 const NavItems = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="px-4">
+    <>
       <div className="flex justify-between max-w-7xl mx-auto items-center">
         {/*  large device menu */}
         <div className="hidden md:block">
@@ -69,14 +65,14 @@ const NavItems = () => {
               <GiHamburgerMenu className="size-8 hover:text-blue-500" />
             )}
             {isOpen && (
-              <div className="flex flex-col pt-5 w-60 top-10 right-0 shadow-md rounded-md absolute ">
+              <div className="flex flex-col pt-5 w-60 top-8 right-0 shadow-lg rounded-md absolute transition-all duration-500">
                 {navItem}
               </div>
             )}
           </button>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

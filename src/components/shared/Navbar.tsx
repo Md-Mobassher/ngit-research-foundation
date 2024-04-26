@@ -14,7 +14,7 @@ const Navbar2 = () => {
             <div className="flex justify-center items-center lg:gap-2 gap-1">
               <FaMobileAlt /> <p> +880-170000000</p>
             </div>
-            <div className="divider divider-horizontal"></div>
+            <div className="divider divider-horizontal  m-0 p-0 "></div>
             <div className="flex justify-center items-center lg:gap-2 gap-1">
               <MdOutlineLocationOn className="size-5" />{" "}
               <p>House- 22, 6th Floor, Road- 08, Sector- 09, Uttara, Dhaka</p>
@@ -23,28 +23,27 @@ const Navbar2 = () => {
 
           <div className="flex ">
             <div className="divider divider-horizontal  m-0 p-0 w-0"></div>
-
-            <div className="w-8 h-8 flex justify-center items-center hover:bg-primary hover:text-white">
-              <Link href="/">
+            <Link href="/">
+              <div className="w-8 h-8 flex justify-center items-center hover:bg-primary hover:text-white">
                 <FaFacebookF />
-              </Link>
-            </div>
+              </div>
+            </Link>
 
             <div className="divider divider-horizontal  m-0 p-0 w-0"></div>
 
-            <div className="w-8 h-8 flex justify-center items-center hover:bg-primary hover:text-white">
-              <Link href="/">
+            <Link href="/">
+              <div className="w-8 h-8 flex justify-center items-center hover:bg-primary hover:text-white">
                 <FaLinkedinIn />
-              </Link>
-            </div>
+              </div>
+            </Link>
 
             <div className="divider divider-horizontal  m-0 p-0 w-0"></div>
 
-            <div className="w-8 h-8 flex justify-center items-center hover:bg-primary hover:text-white">
-              <Link href="/">
+            <Link href="/">
+              <div className="w-8 h-8 flex justify-center items-center hover:bg-primary hover:text-white">
                 <AiOutlineYoutube />
-              </Link>
-            </div>
+              </div>
+            </Link>
 
             <div className="divider m-0 p-0 w-0 divider-horizontal"></div>
           </div>
