@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className=" py-10  border-t  overflow-hidden bg-slate-100">
+    <footer className=" py-2  border-t  overflow-hidden bg-slate-100">
       <div className="max-w-7xl mx-auto p-5 flex justify-between items-center">
         <div className="">
           <p>
