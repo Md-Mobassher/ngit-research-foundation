@@ -37,6 +37,11 @@ const navItem = (
         More
       </div>
     </Link>
+    <Link className="rounded-lg" href="/contact">
+      <div className="bg-white px-5 py-2 rounded text-md font-semibold text-black hover:bg-blue-500 hover:text-white">
+        Contact
+      </div>
+    </Link>
   </>
 );
 
