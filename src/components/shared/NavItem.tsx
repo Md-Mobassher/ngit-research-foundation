@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { ImCross } from "react-icons/im";
+import { RxCross2 } from "react-icons/rx";
 import Link from "next/link";
 
 const navItem = (
@@ -27,7 +27,7 @@ const navItem = (
         Publications
       </div>
     </Link>
-    <Link className="rounded-lg" href="/resource">
+    <Link className="rounded-lg" href="/resources">
       <div className="bg-white px-5 py-2 rounded text-md font-semibold text-black hover:bg-blue-500 hover:text-white">
         Resources
       </div>
@@ -60,9 +60,13 @@ const NavItems = () => {
             aria-expanded={isOpen ? "true" : "false"}
           >
             {isOpen ? (
-              <ImCross className="size-7 hover:text-blue-500" />
+              <div className="p-1 border rounded-md hover:bg-blue-500 hover:text-white">
+                <RxCross2 className="size-8" />
+              </div>
             ) : (
-              <GiHamburgerMenu className="size-8 hover:text-blue-500" />
+              <div className="p-1 border rounded-md hover:bg-blue-500 hover:text-white">
+                <GiHamburgerMenu className="size-8" />
+              </div>
             )}
             {isOpen && (
               <div className="flex flex-col pt-5 w-60 top-8 right-0 shadow-lg rounded-md absolute transition-all duration-500">
