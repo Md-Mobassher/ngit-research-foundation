@@ -4,7 +4,7 @@ This repository contains the codebase for the NGIT Research Foundation project, 
 
 ## Deployment
 
-- Live Link : [NGIT Research Foundation](https://ngit-research-foundation.vercel.app)
+- **Live Link**: [NGIT Research Foundation](https://ngit-research-foundation.vercel.app)
 
 ## Description
 
@@ -23,7 +23,7 @@ NGIT Research Foundation is a platform aimed at promoting and facilitating resea
 - **Next.js**: React framework for building server-side rendered and static web applications.
 - **TypeScript**: Typed superset of JavaScript for enhanced developer productivity and code maintainability.
 - **Tailwind CSS**: Utility-first CSS framework for building custom designs with ease.
-- **Firebase**: Backend services for authentication, database, and file storage.
+- **Vercel**: Deploy the project to Vercel.
 
 ## Getting Started
 
@@ -32,13 +32,13 @@ To get a local copy of the project up and running, follow these steps:
 1. Clone the repository:
 
 ```
-git clone https://github.com/ngit-research-foundation/ngit-research.git
+git clone https://github.com/Md-Mobassher/ngit-research-foundation-client.git
 ```
 
 2. Install dependencies:
 
 ```
-cd ngit-research npm install
+cd ngit-research-foundation-client npm install
 ```
 
 3. Set up environment variables:
@@ -52,6 +52,10 @@ npm run dev
 
 5. Open your browser and navigate to `http://localhost:3000` to view the application.
 
+## Contributing
+
+Contributions are welcome! If you find any bugs or want to suggest improvements, please open an issue or create a pull request.
+
 ## License
 
-This project is licensed under the MIT License.
+MIT License
