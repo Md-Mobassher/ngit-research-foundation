@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NGIT Research Foundation
+
+This repository contains the codebase for the NGIT Research Foundation project, built using Next.js, TypeScript, and Tailwind CSS.
+
+## Deployment
+
+- Live Link : [NGIT Research Foundation](https://ngit-research-foundation.vercel.app)
+
+## Description
+
+NGIT Research Foundation is a platform aimed at promoting and facilitating research in various fields. It provides a collaborative space for researchers to share ideas, collaborate on projects, and access resources to further their research endeavors.
+
+## Features
+
+- **User Authentication**: Secure user authentication and authorization system.
+- **Project Collaboration**: Collaborative tools for researchers to work together on projects.
+- **Resource Repository**: Centralized repository for research papers, articles, and other resources.
+- **Discussion Forums**: Forums for discussions on various research topics.
+- **Events Management**: Management of events such as conferences, seminars, and workshops.
+
+## Technologies Used
+
+- **Next.js**: React framework for building server-side rendered and static web applications.
+- **TypeScript**: Typed superset of JavaScript for enhanced developer productivity and code maintainability.
+- **Tailwind CSS**: Utility-first CSS framework for building custom designs with ease.
+- **Firebase**: Backend services for authentication, database, and file storage.
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy of the project up and running, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+1. Clone the repository:
+
+```
+git clone https://github.com/ngit-research-foundation/ngit-research.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+cd ngit-research npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Set up environment variables:
+   Create a `.env` file in the root directory and add necessary environment variables.
 
-## Learn More
+4. Start the development server:
 
-To learn more about Next.js, take a look at the following resources:
+```
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. Open your browser and navigate to `http://localhost:3000` to view the application.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License.
