@@ -1,5 +1,5 @@
 import Intro from "./home/Intro";
-import Governance from "./home/Governance";
+import Governance from "./about/components/Governance";
 import BannerSection from "./home/BannerSection";
 import "swiper/css";
 

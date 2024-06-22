@@ -2,6 +2,12 @@ import assets from "@/assets";
 
 export const slides = [
   {
+    id: 123,
+    title: "admission",
+    url: "/",
+    image: assets.banner.admission,
+  },
+  {
     id: 1,
     title:
       "Lithium-ion battery state-of-charge balancing circuit using single resonant converter for electric vehicle applications",
@@ -23,12 +29,19 @@ export const slides = [
     image: assets.banner.banner3,
   },
   {
+    id: 124,
+    title: "admission",
+    url: "/",
+    image: assets.banner.admission,
+  },
+  {
     id: 4,
     title:
       "Voltage equalization circuit for retired batteries for energy storage applications",
     url: "https://www.sciencedirect.com/science/article/pii/S2352484722009994",
     image: assets.banner.banner4,
   },
+
   {
     id: 5,
     title:

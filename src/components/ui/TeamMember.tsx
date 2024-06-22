@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useRouter } from "next/router";
 
 const TeamMember = ({ teamMember }: any) => {
@@ -11,7 +12,7 @@ const TeamMember = ({ teamMember }: any) => {
   return (
     <div className="card  bg-base-100 shadow-xl">
       <figure>
-        <img src={img} alt="Shoes" />
+        <Image src={img} alt="Shoes" />
       </figure>
       <div className="card-body text-center">
         <h2 className="text-xl mb-2 font-semibold">{name}</h2>

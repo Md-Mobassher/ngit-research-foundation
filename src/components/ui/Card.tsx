@@ -7,7 +7,7 @@ type TCardProps = {
 };
 const Card = ({ img, title, details }: TCardProps) => {
   return (
-    <div className="card max-w-[380px] card-compact  bg-base-100 shadow-lg border rounded-lg  mx-auto">
+    <div className="card max-w-[380px] card-compact  bg-base-100 shadow-lg border rounded-lg  mx-auto border-gray-300">
       <figure>
         <Image src={img} alt={title} width={400} height={250} />
       </figure>

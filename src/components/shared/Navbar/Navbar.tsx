@@ -15,12 +15,15 @@ const Navbar = () => {
         <div className="flex  justify-between items-center ">
           <div className="flex items-center text-sm ">
             <div className="flex justify-center items-center lg:gap-2 gap-1">
-              <FaMobileAlt /> <p> +880-170000000</p>
+              <FaMobileAlt /> <p> +8801737632508</p>
             </div>
             <div className="divider divider-horizontal  m-0 p-0 "></div>
             <div className="flex justify-center items-center lg:gap-2 gap-1">
               <MdOutlineLocationOn className="size-5" />{" "}
-              <p>House- 22, 6th Floor, Road- 08, Sector- 09, Uttara, Dhaka</p>
+              <p>
+                House-50/11, Road-07, Babukha, Masterpara, Rangpur Sadar,
+                Rangpur
+              </p>
             </div>
           </div>
 
@@ -48,13 +51,13 @@ const Navbar = () => {
               </div>
             </Link>
 
-            <div className="divider m-0 p-0 w-0 divider-horizontal"></div>
+            <div className="divider m-0 p-0 w-0 divider-horizontal border-gray-300"></div>
           </div>
         </div>
       </div>
 
       {/* header */}
-      <header className=" sticky top-0 z-50 bg-white border-b border-t py-[2px] shadow-sm">
+      <header className=" sticky top-0 z-50 bg-white border-b border-t border-gray-300 py-[2px] shadow-sm">
         <div className="flex justify-between items-center max-w-6xl mx-auto px-4">
           <div className="w-[200px] ">
             <Link href="/">

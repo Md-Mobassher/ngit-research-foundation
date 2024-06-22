@@ -1,13 +1,16 @@
-import Intro from "../home/Intro";
-import Governance from "../home/Governance";
+import Governance from "./components/Governance";
 
 const AboutPage = () => {
   return (
-    <div className="container mx-auto px-4">
-      <div className="lg:my-12 my-8  overflow-x-hidden overflow-hidden mx-auto ">
-        <h2 className="text-3xl font-semibold mb-2">About Us</h2>
-        <hr />
-        <Intro />
+    <div className="max-w-6xl mx-auto px-4">
+      <div className="lg:mt-10 mt-8">
+        <h2 className="text-4xl mb-3 font-semibold text-center ">
+          <span className="text-blue-500">About</span> Us
+        </h2>
+        <hr className="border-gray-400 " />
+      </div>
+
+      <div className="lg:-mt-16 md:-mt-10 -mt-5">
         <Governance />
       </div>
     </div>

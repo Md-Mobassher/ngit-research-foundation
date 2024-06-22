@@ -14,7 +14,7 @@ type TSlide = {
 
 const BannerSection = () => {
   return (
-    <div className="shadow-lg rounded-md lg:px-4 md:px-3 px-2 py-2 border lg:h-[600px] md:h-[450px] h-[300px] mt-2">
+    <div className="shadow-lg rounded-md lg:px-4 md:px-3 px-2 py-2 border border-gray-300 lg:h-[600px] md:h-[450px] h-[300px] mt-2">
       <Swiper
         grabCursor={true}
         centeredSlides={true}

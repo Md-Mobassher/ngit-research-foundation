@@ -11,6 +11,7 @@ const assets = {
     whatsapp: require("@/assets/icons/whatsapp.png"),
   },
   banner: {
+    admission: require("@/assets/banner/admission.png"),
     banner1: require("@/assets/banner/banner-1.png"),
     banner2: require("@/assets/banner/banner-2.png"),
     banner3: require("@/assets/banner/banner-3.png"),
@@ -19,8 +20,9 @@ const assets = {
     banner6: require("@/assets/banner/banner-6.png"),
     banner7: require("@/assets/banner/banner-7.png"),
   },
-  admission: {
-    info: require("@/assets/adminssion/Admission Info.png"),
+  governance: {
+    founder: require("@/assets/governance/founder.png"),
+    advisor: require("@/assets/governance/advisor.png"),
   },
 };
 
