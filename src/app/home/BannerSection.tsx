@@ -31,14 +31,16 @@ const BannerSection = () => {
         className="w-full h-full rounded-lg mySwiper"
       >
         {slides.map((slide: TSlide) => (
-          <SwiperSlide key={slide.id}>
+          <SwiperSlide key={slide?.id}>
             <div className="w-full flex justify-center items-start h-full">
-              <Image
-                src={slide.image}
-                alt={`Slide ${slide.id}`}
-                className="rounded-md mx-auto"
-                width={1000}
-              />
+              <a href={`${slide.url}`} target="_blank">
+                <Image
+                  src={slide?.image}
+                  alt={`Slide ${slide?.id}`}
+                  className="rounded-md mx-auto"
+                  width={1000}
+                />
+              </a>
             </div>
           </SwiperSlide>
         ))}

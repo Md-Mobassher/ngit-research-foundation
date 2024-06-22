@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <>
       {/* header top */}
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-6xl mx-auto px-4">
         <div className="flex  justify-between items-center ">
           <div className="flex items-center text-sm ">
             <div className="flex justify-center items-center lg:gap-2 gap-1">
@@ -55,7 +55,7 @@ const Navbar = () => {
 
       {/* header */}
       <header className=" sticky top-0 z-50 bg-white border-b border-t py-[2px] shadow-sm">
-        <div className="flex justify-between items-center container mx-auto px-4">
+        <div className="flex justify-between items-center max-w-6xl mx-auto px-4">
           <div className="w-[200px] ">
             <Link href="/">
               <Image src={assets.logo} alt="logo" width={70} height={70} />
