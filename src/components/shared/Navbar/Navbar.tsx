@@ -1,10 +1,13 @@
 import Link from "next/link";
-import NavItems from "./NavItem";
 import { FaFacebookF, FaLinkedinIn, FaMobileAlt } from "react-icons/fa";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { AiOutlineYoutube } from "react-icons/ai";
+import Image from "next/image";
+import assets from "@/assets";
+import MobileMenu from "./MobileMenu";
+import { navItemsData } from "./navItemData";
 
-const Navbar2 = () => {
+const Navbar = () => {
   return (
     <>
       {/* header top */}
@@ -52,15 +55,30 @@ const Navbar2 = () => {
 
       {/* header */}
       <header className=" sticky top-0 z-50 bg-white border-b border-t">
-        <div className="flex bg-white  m-0 justify-between items-center h-14 max-w-7xl mx-auto px-4 lg:gap-5 gap-2 ">
-          <div className="flex-1 text-4xl font-semibold">
-            <Link href="/">NGIT</Link>
+        <div className="flex justify-between items-center container mx-auto px-4">
+          <div className="w-[200px] ">
+            <Link href="/">
+              <Image src={assets.logo} alt="logo" width={70} height={70} />
+            </Link>
           </div>
-          <NavItems />
+          <div>
+            <nav className="lg:flex md:flex hidden flex-wrap">
+              {navItemsData.map((item, index) => (
+                <Link
+                  key={index}
+                  href={item.url}
+                  className=" text-md font-semibold  py-2 px-4 hover:text-white hover:bg-blue-500 rounded-md"
+                >
+                  {item.title}
+                </Link>
+              ))}
+            </nav>
+            <MobileMenu />
+          </div>
         </div>
       </header>
     </>
   );
 };
 
-export default Navbar2;
+export default Navbar;

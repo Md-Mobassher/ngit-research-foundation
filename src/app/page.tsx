@@ -5,7 +5,7 @@ import Governance from "./home/Governance";
 
 const HomePage = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4">
+    <div className="container mx-auto px-4">
       <Banner />
       <Intro />
       <Governance />
