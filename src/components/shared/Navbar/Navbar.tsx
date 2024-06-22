@@ -54,7 +54,7 @@ const Navbar = () => {
       </div>
 
       {/* header */}
-      <header className=" sticky top-0 z-50 bg-white border-b border-t">
+      <header className=" sticky top-0 z-50 bg-white border-b border-t py-[2px] shadow-sm">
         <div className="flex justify-between items-center container mx-auto px-4">
           <div className="w-[200px] ">
             <Link href="/">

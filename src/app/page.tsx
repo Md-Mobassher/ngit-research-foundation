@@ -1,12 +1,12 @@
-import React from "react";
-import Banner from "./home/Banner";
 import Intro from "./home/Intro";
 import Governance from "./home/Governance";
+import BannerSection from "./home/BannerSection";
+import "swiper/css";
 
 const HomePage = () => {
   return (
     <div className="container mx-auto px-4">
-      <Banner />
+      <BannerSection />
       <Intro />
       <Governance />
     </div>
