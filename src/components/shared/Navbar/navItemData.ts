@@ -11,22 +11,22 @@ export const navItemsData = [
     title: "Research",
     url: "/research",
   },
-  {
-    title: "People",
-    url: "/people",
-  },
+  // {
+  //   title: "People",
+  //   url: "/people",
+  // },
   {
     title: "Publications",
     url: "/publications",
   },
-  {
-    title: "Resources",
-    url: "/resources",
-  },
-  {
-    title: "More",
-    url: "/more",
-  },
+  // {
+  //   title: "Resources",
+  //   url: "/resources",
+  // },
+  // {
+  //   title: "More",
+  //   url: "/more",
+  // },
   {
     title: "Contact",
     url: "/contact",

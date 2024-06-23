@@ -1,9 +1,10 @@
+import PageTitle from "@/components/ui/PageTitle";
+
 const ResearchPage = () => {
   return (
     <>
-      <div className="lg:my-12 my-8 max-w-7xl mx-auto px-4">
-        <h2 className="text-3xl mb-2  font-semibold ">Research</h2>
-        <hr />
+      <div className="mb-10 max-w-6xl mx-auto px-4">
+        <PageTitle ctitle="Research" />
 
         <div className="mt-8">
           <h3 className="text-xl font-semibold mb-3">RESEARCH AREA</h3>

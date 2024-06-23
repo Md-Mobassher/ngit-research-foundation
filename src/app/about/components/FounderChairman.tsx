@@ -6,7 +6,7 @@ const FounderChairman = () => {
   return (
     <div className="mt-10">
       <div className=" flex lg:flex-row md:flex-row flex-col items-start gap-10">
-        <div className="lg:w-[25%] md:w-[30%] max-w-[350px] flex flex-col mx-auto items-center border rounded-md border-gray-300">
+        <div className="lg:w-[25%] md:w-[30%] max-w-[350px] flex flex-col mx-auto items-center border rounded-md border-gray-300 shadow-md">
           <Image
             src={assets.governance.founder}
             alt="A K M AHASAN HABIB"
