@@ -24,6 +24,13 @@ const assets = {
     founder: require("@/assets/governance/founder.png"),
     advisor: require("@/assets/governance/advisor.png"),
   },
+  image: {
+    contact: require("@/assets/image/contact.png"),
+    contact2: require("@/assets/image/contact-us.png"),
+    mission: require("@/assets/image/mission.png"),
+    vission: require("@/assets/image/vission.png"),
+    values: require("@/assets/image/values.png"),
+  },
 };
 
 export default assets;

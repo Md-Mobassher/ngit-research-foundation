@@ -1,23 +1,22 @@
 import PageTitle from "@/components/ui/PageTitle";
-import { PhoneCallIcon } from "lucide-react";
+import ContactInfo from "./components/ContactInfo";
+import Image from "next/image";
+import assets from "@/assets";
 
 const ContactPage = () => {
   return (
     <div className="mb-10 max-w-6xl mx-auto px-4">
       <PageTitle ctitle="Contact" title="Us" />
-      <div className="mt-8 flex justify-between gap-10 ">
-        <div>
-          <form>
-            <input />
-          </form>
+      <div className="mt-8 flex lg:flex-row md:flex-row flex-col justify-between items-center lg:gap-10 gap-5 ">
+        <div className="flex-1 p-5 lg:p-7">
+          <Image
+            src={assets.image.contact}
+            alt="Contact image"
+            width={450}
+            height={450}
+          />
         </div>
-        <div className="flex">
-          <div className="border border-gray-300 p-5 ">
-            <PhoneCallIcon />
-            <h5>+8801737632508</h5>
-            <h5>+60142655175</h5>
-          </div>
-        </div>
+        <ContactInfo />
       </div>
     </div>
   );
