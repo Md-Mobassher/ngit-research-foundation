@@ -12,13 +12,14 @@ const Navbar = () => {
     <>
       {/* header top */}
       <div className="max-w-6xl mx-auto px-4">
-        <div className="flex  justify-between items-center ">
+        <div className="flex flex-wrap justify-between items-center ">
           <div className="flex items-center text-sm ">
-            <div className="flex justify-center items-center lg:gap-2 gap-1">
+            <div className="flex justify-center items-center lg:gap-2 gap-1 mr-2">
               <FaMobileAlt /> <p> +8801737632508</p>
             </div>
-            <div className="divider divider-horizontal  m-0 p-0 "></div>
-            <div className="flex justify-center items-center lg:gap-2 gap-1">
+
+            <div className="md:flex justify-center items-center lg:gap-2 gap-1 hidden ">
+              <div className="divider divider-horizontal  m-0 p-0 "></div>
               <MdOutlineLocationOn className="size-5" />{" "}
               <p>
                 House-50/11, Road-07, Babukha, Masterpara, Rangpur Sadar,

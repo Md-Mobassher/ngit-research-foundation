@@ -15,7 +15,9 @@ const FounderChairman = () => {
             className="object-cover shadow-lg mx-auto rounded-t-lg border-b"
           />
           <div className="p-3">
-            <h2 className="text-xl font-semibold">A K M AHASAN HABIB </h2>
+            <h2 className="text-xl font-semibold text-center">
+              A K M AHASAN HABIB{" "}
+            </h2>
           </div>
         </div>
         <div className="lg:w-[75%] md:w-[70%] w-full">

@@ -15,7 +15,9 @@ const Advisor = () => {
             className="object-cover border shadow-lg mx-auto"
           />
           <div className="p-3">
-            <h2 className="text-xl font-semibold">MOHAMMAD KAMRUL HASAN </h2>
+            <h2 className="text-xl font-semibold text-center">
+              MOHAMMAD KAMRUL HASAN{" "}
+            </h2>
           </div>
         </div>
         <div className="lg:w-[75%] md:w-[70%] w-full">

@@ -7,14 +7,14 @@ type TResearchItemProps = {
 
 const ResearchItem = ({ title, link }: TResearchItemProps) => {
   return (
-    <div className="mt-3 flex lg:gap-5 md:gap-4 gap-3">
+    <div className="mt-3 ml-5 flex lg:gap-5 md:gap-4 w-full gap-3">
       <div>
         <MoveRight />
       </div>
-      <h5>
+      <h5 className="flex flex-wrap">
         <span className="text-md font-semibold lg:mr-2 mr-1">{title}: </span>
         <a href={`${link}`} target="_blank" className="link text-blue-500">
-          {link}
+          Click Here
         </a>
       </h5>
     </div>

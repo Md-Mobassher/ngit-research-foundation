@@ -32,7 +32,7 @@ const BannerSection = () => {
       >
         {slides.map((slide: TSlide) => (
           <SwiperSlide key={slide?.id}>
-            <div className="w-full flex justify-center items-start h-full">
+            <div className="w-full flex justify-center lg:items-start items-center h-full">
               <a href={`${slide.url}`} target="_blank">
                 <Image
                   src={slide?.image}
