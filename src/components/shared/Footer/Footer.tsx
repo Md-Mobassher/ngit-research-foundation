@@ -1,47 +1,71 @@
-import { FaFacebookF } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
-import { AiOutlineYoutube } from "react-icons/ai";
+import Image from "next/image";
 import Link from "next/link";
+import { socialData } from "./SocialData";
+import assets from "@/assets";
 
 const Footer = () => {
   return (
-    <footer className=" py-2  border-t  overflow-hidden bg-slate-100">
-      <div className="max-w-6xl mx-auto p-5 flex justify-between items-center">
-        <div className="">
-          <p>
-            Copyright © {new Date().getFullYear()} - All right reserved to NGIT
-            Research Foundation
-          </p>
-        </div>
-        <div className="flex flex-col justify-center items-center">
-          <span className="footer-title text-center">Social</span>
-          <div className="flex gap-1 ">
-            <div className="divider divider-horizontal  m-0 p-0 w-0"></div>
-
-            <div className="w-12 h-12 flex justify-center items-center hover:bg-primary rounded-lg">
-              <Link href="/">
-                <FaFacebookF className="w-6 h-6" />
-              </Link>
-            </div>
-
-            <div className="divider divider-horizontal  m-0 p-0 w-0"></div>
-
-            <div className="w-12 h-12 flex justify-center items-center hover:bg-primary rounded-lg">
-              <Link href="/">
-                <FaLinkedinIn className="w-6 h-6" />
-              </Link>
-            </div>
-
-            <div className="divider divider-horizontal  m-0 p-0 w-0"></div>
-
-            <div className="w-12 h-12 flex justify-center items-center hover:bg-primary rounded-lg">
-              <Link href="/">
-                <AiOutlineYoutube className="w-6 h-6" />
-              </Link>
-            </div>
-
-            <div className="divider m-0 p-0 w-0 divider-horizontal"></div>
+    <footer className=" border-t border-gray-300 lg:mt-20 md:mt-14 mt-10 mb-5 pt-5 pb-2 bg-slate-50">
+      <div className="max-w-6xl mx-auto px-4 ">
+        <div className="flex flex-wrap justify-between  lg:gap-10 gap-2 items-center py-3">
+          <div>
+            <Link href="/">
+              <Image
+                src={assets.logo.png}
+                alt="ngit logo"
+                width={100}
+                height={100}
+              />
+            </Link>
           </div>
+          <div>
+            <h3 className="text-2xl font-semibold text-center">
+              Contact Us Via
+            </h3>
+            <div className="flex flex-wrap mt-4">
+              {socialData.map((item) => (
+                <a
+                  href={item.link}
+                  key={item.title}
+                  target={item.link.startsWith("http") ? "_blank" : ""}
+                  rel={
+                    item.link.startsWith("http") ? "noopener noreferrer" : ""
+                  }
+                >
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    className="object-cover filter grayscale transition duration-500 ease-in-out p-1 hover:grayscale-0"
+                    width={50}
+                    height={50}
+                  />
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* copyright */}
+        <div className="flex md:flex-row flex-col lg:gap-5 gap-2 items-center justify-between mt-3">
+          <p className="text-center">
+            Copyright &copy; {new Date().getFullYear()}. All right regerved to{" "}
+            <Link
+              href="/"
+              className="text-slate-500 hover:text-blue-500 font-semibold"
+            >
+              North Girth Institute of Technology
+            </Link>
+          </p>
+          <p className="text-center text-md">
+            Design & Developed By{" "}
+            <a
+              href="https://dev-mobassher.web.app"
+              target="_blank"
+              className="text-slate-500 hover:text-blue-500 font-semibold"
+            >
+              Md Mobassher Hossain
+            </a>
+          </p>
         </div>
       </div>
     </footer>

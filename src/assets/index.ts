@@ -1,5 +1,8 @@
 const assets = {
-  logo: require("@/assets/logo.jpg"),
+  logo: {
+    jpg: require("@/assets/logo.jpg"),
+    png: require("@/assets/logo.png"),
+  },
   icons: {
     email: require("@/assets/icons/email.png"),
     facebook: require("@/assets/icons/facebook.png"),
