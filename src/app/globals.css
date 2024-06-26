@@ -8,3 +8,16 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+@keyframes marquee {
+  0% {
+    transform: translateX(105%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}

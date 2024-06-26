@@ -4,13 +4,13 @@ import Image from "next/image";
 
 const Advisor = () => {
   return (
-    <div className="mt-10">
+    <div className="pt-10 overflow-hidden">
       <div className=" flex lg:flex-row-reverse md:flex-row-reverse flex-col items-start gap-10">
         <div className="lg:w-[25%] md:w-[30%] max-w-[350px] flex flex-col mx-auto items-center border rounded-md border-gray-300 shadow-md">
           <Image
             src={assets.governance.advisor}
             alt="MOHAMMAD KAMRUL HASAN "
-            width={350}
+            width={360}
             height={400}
             className="object-cover border shadow-lg mx-auto"
           />

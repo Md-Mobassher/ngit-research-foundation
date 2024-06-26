@@ -6,7 +6,7 @@ const AboutPage = () => {
     <div className="max-w-6xl mx-auto px-4">
       <PageTitle ctitle="About" title="Us" />
 
-      <div className="lg:-mt-16 md:-mt-10 -mt-5">
+      <div className="">
         <Governance />
       </div>
     </div>

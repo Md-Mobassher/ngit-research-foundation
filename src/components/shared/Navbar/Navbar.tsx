@@ -1,7 +1,6 @@
 import Link from "next/link";
-import { FaFacebookF, FaLinkedinIn, FaMobileAlt } from "react-icons/fa";
+import { FaMobileAlt } from "react-icons/fa";
 import { MdOutlineLocationOn } from "react-icons/md";
-import { AiOutlineYoutube } from "react-icons/ai";
 import Image from "next/image";
 import assets from "@/assets";
 import MobileMenu from "./MobileMenu";
