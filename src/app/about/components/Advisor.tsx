@@ -51,8 +51,8 @@ const Advisor = () => {
             Transactions on Electrical and Electronics Engineering, IEEE,
             Elsevier, IET, MDPI, and Bentham Science.
           </p>
-          <div className="lg:mt-10 md:mt-8 mt-7">
-            <h2 className="text-xl text-center font-semibold">
+          <div className="lg:mt-8 md:mt-7 mt-6">
+            <h2 className="text-xl font-semibold md:text-start text-center">
               Research Profile:
             </h2>
 

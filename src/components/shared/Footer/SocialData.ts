@@ -9,16 +9,11 @@ export const socialData = [
   {
     title: "email",
     image: assets.icons.email,
-    link: "mailto:@gmail.com",
+    link: "mailto:ngit.info@gmail.com",
   },
   {
     title: "facebook",
     image: assets.icons.facebook,
-    link: "mailto:@gmail.com",
-  },
-  {
-    title: "linkedin",
-    image: assets.icons.linkedIn,
-    link: "/",
+    link: "https://www.facebook.com/people/North-Garth-Institute-of-Technology/100064043196835/?mibextid=ZbWKwL",
   },
 ];

@@ -6,6 +6,7 @@ import Image from "next/image";
 import assets from "@/assets";
 import MobileMenu from "./MobileMenu";
 import { navItemsData } from "./navItemData";
+import { socialData } from "../Footer/SocialData";
 
 const Navbar = () => {
   return (
@@ -28,7 +29,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="flex ">
+          {/* <div className="flex ">
             <div className="divider divider-horizontal  m-0 p-0 w-0"></div>
             <Link href="/">
               <div className="w-8 h-8 flex justify-center items-center hover:bg-primary hover:text-white">
@@ -53,6 +54,24 @@ const Navbar = () => {
             </Link>
 
             <div className="divider m-0 p-0 w-0 divider-horizontal border-gray-300"></div>
+          </div> */}
+          <div className="flex">
+            {socialData.map((item) => (
+              <a
+                href={item.link}
+                key={item.title}
+                target={item.link.startsWith("http") ? "_blank" : ""}
+                rel={item.link.startsWith("http") ? "noopener noreferrer" : ""}
+              >
+                <Image
+                  src={item.image}
+                  alt={item.title}
+                  className="object-cover filter grayscale transition duration-500 ease-in-out p-1 hover:grayscale-0"
+                  width={30}
+                  height={30}
+                />
+              </a>
+            ))}
           </div>
         </div>
       </div>

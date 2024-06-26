@@ -26,6 +26,7 @@ const assets = {
   governance: {
     founder: require("@/assets/governance/founder.png"),
     advisor: require("@/assets/governance/advisor.png"),
+    itSpecialist: require("@/assets/governance/mobassher.png"),
   },
   image: {
     contact: require("@/assets/image/contact.png"),

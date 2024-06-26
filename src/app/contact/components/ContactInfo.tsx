@@ -12,7 +12,7 @@ const ContactInfo = () => {
             <strong> Phone: </strong>
             <span className="text-blue-500 ml-2 ">+8801737632508</span>
           </h5>
-          <h5 className="mt-3 text-xl font-semibold">
+          <h5 className="lg:mt-3 md:mt-2 mt-1 text-xl font-semibold">
             <strong> Whatsapp: </strong>
             <span className="text-blue-500 ml-2 ">+60142655175</span>
           </h5>
@@ -21,12 +21,12 @@ const ContactInfo = () => {
 
       <div className="border border-gray-300 rounded-lg  flex justify-start pl-7 items-center lg:gap-8 md:gap-7 gap-5 p-5  bg-gray-100 ">
         <div className="bg-blue-500 lg:p-8 md:p-6 p-5 text-white rounded-full flex justify-center items-center border border-white">
-          <MailOpen className="lg:size-12 md:size-10 size-10" />
+          <MailOpen className="lg:size-12 md:size-10 size-8" />
         </div>
         <div>
           <h5 className=" text-xl font-semibold">
             <strong> Email: </strong>
-            <span className="text-blue-500 ml-2 "></span>
+            <span className="text-blue-500 ml-2 ">ngit.info@gmail.com</span>
           </h5>
         </div>
       </div>

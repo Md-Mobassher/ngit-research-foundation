@@ -46,8 +46,8 @@ const FounderChairman = () => {
             Applied Energy, SoftwareX, Energy Reports, IET wireless sensor
             systems, and so many others.
           </p>
-          <div className="lg:mt-10 md:mt-8 mt-7">
-            <h2 className="text-xl text-center font-semibold">
+          <div className="lg:mt-8 md:mt-7 mt-6">
+            <h2 className="text-xl font-semibold md:text-start text-center">
               Research Profile:
             </h2>
 
