@@ -9,13 +9,11 @@ const ContactInfo = () => {
         </div>
         <div>
           <h5 className="text-xl font-semibold">
-            <strong> Phone: </strong>
-            <span className="text-blue-500 ml-2 ">+8801737632508</span>
+            <strong> Phone/Whatsapp: </strong>
           </h5>
-          <h5 className="lg:mt-3 md:mt-2 mt-1 text-xl font-semibold">
-            <strong> Whatsapp: </strong>
-            <span className="text-blue-500 ml-2 ">+60142655175</span>
-          </h5>
+          <p className="text-blue-500 mt-3 text-lg font-semibold">
+            +8801996377947 <br /> +60142655175
+          </p>
         </div>
       </div>
 

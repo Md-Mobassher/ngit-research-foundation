@@ -34,17 +34,22 @@ const FounderChairman = () => {
           <p className="text-justify mt-4">
             Currently, he is a PhD student at the Center for Cyber Security,
             Faculty of Information Science and Technology, Universiti Kebangsaan
-            Malaysia under the Ministry of Higher Education Malaysia Fundamental
-            Research Grand on Cyber Security. During his PhD period, he also got
-            a Malaysian International Scholarship (MIS). He has published more
-            than 28 indexed papers in ranked journals and conference
-            proceedings. His research interests include Electric Vehicles,
-            Energy Storage and Management Systems, Smart Grid and Cyber Security
-            Systems, Artificial Intelligence, Smart Vehicular Networks, Smart
-            Grids, and Industrial IoT. He is a reviewer in the Journal of
-            Network and Computer Applications, Journal of Energy Storage,
-            Applied Energy, SoftwareX, Energy Reports, IET wireless sensor
-            systems, and so many others.
+            Malaysia under the{" "}
+            <span className="font-semibold">
+              Ministry of Higher Education Malaysia Fundamental Research Grand
+            </span>{" "}
+            on Cyber Security. During his PhD period, he also got a{" "}
+            <span className="font-semibold">
+              Malaysian International Scholarship (MIS)
+            </span>
+            . He has published more than 28 indexed papers in ranked journals
+            and conference proceedings. His research interests include Electric
+            Vehicles, Energy Storage and Management Systems, Smart Grid and
+            Cyber Security Systems, Artificial Intelligence, Smart Vehicular
+            Networks, Smart Grids, and Industrial IoT. He is a reviewer in the
+            Journal of Network and Computer Applications, Journal of Energy
+            Storage, Applied Energy, SoftwareX, Energy Reports, IET wireless
+            sensor systems, and so many others.
           </p>
           <div className="lg:mt-8 md:mt-7 mt-6">
             <h2 className="text-xl font-semibold md:text-start text-center">
