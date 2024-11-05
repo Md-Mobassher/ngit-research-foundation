@@ -60,15 +60,15 @@ const ItSpecialist = () => {
 
             <ResearchItem
               title="Portfolio"
-              link="https://dev-mobassher.web.app"
-            />
-            <ResearchItem
-              title="Github"
-              link="https://github.com/Md-Mobassher"
+              link="https://mobassher.vercel.app"
             />
             <ResearchItem
               title="Linkedin"
               link="https://www.linkedin.com/in/md-mobassher"
+            />
+            <ResearchItem
+              title="Github"
+              link="https://github.com/Md-Mobassher"
             />
             <ResearchItem
               title="Facebook"

@@ -12,7 +12,7 @@ export const publicationsByYear = publicationsData.reduce<
 }, {});
 
 const PublicationCard: React.FC<{ pub: Publication }> = ({ pub }) => (
-  <div className="border border-gray-300 hover:border-gray-500 rounded-lg p-4 my-4 bg-white shadow hover:drop-shadow-lg lg:px-10 lg:py-6">
+  <div className="border border-gray-300 hover:border-gray-400 rounded-lg p-4 my-4 bg-white shadow hover:drop-shadow-lg lg:px-10 lg:py-6">
     <h3 className="text-xl font-semibold text-blue-500 text-center mb-3 underline">
       {pub?.type}
     </h3>

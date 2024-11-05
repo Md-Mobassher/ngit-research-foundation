@@ -2,8 +2,9 @@ export const publicationsData = [
   {
     year: 2024,
     type: "Journal",
-    title: "",
-    authors: "",
+    title:
+      "Distributed denial-of-service attack detection short review: issues, challenges, and recommendations (Accepted)",
+    authors: "Habib",
     journal: "",
     volume: "",
     issue: "",
@@ -15,7 +16,8 @@ export const publicationsData = [
   {
     year: 2024,
     type: "Conference",
-    title: "",
+    title:
+      "Review on Wearable Antennas and Circuits: Materials, Designs, Applications and Future Direction (Accepted)",
     authors: "",
     conference: "",
     location: "",

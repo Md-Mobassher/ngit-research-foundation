@@ -5,7 +5,7 @@ const Marquee = () => {
         <span className="text-red-600 mr-2">Admission going on.</span>
         <span>
           Phone:
-          <span className="text-blue-600"> +8801737632508 </span>
+          <span className="text-blue-600"> +8801996377947 </span>
         </span>
         <span>
           Whatsapp: <span className="text-blue-600"> +60142655175</span>

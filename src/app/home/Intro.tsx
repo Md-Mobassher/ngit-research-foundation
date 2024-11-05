@@ -3,6 +3,27 @@ import mission from "@/assets/image/mission.png";
 import vission from "@/assets/image/vission.png";
 import values from "@/assets/image/values.png";
 
+const introData = [
+  {
+    title: "Mission",
+    details:
+      "NGIT mission is to achieve the integration, comprehensive excellences and internationalization.",
+    img: mission,
+  },
+  {
+    title: "Vission",
+    details:
+      "NGIT aim is doing research on Advance Science & Technology that have highly impact on personal life as well as our nation.",
+    img: vission,
+  },
+  {
+    title: "Values",
+    details:
+      "Ethically responsible, collaboration, transparent and accountable.",
+    img: values,
+  },
+];
+
 const Intro = () => {
   return (
     <div className="mt-20">
@@ -22,27 +43,14 @@ const Intro = () => {
         February 2020..
       </p>
       <div className="my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-        <Card
-          img={mission}
-          title={"MISSION"}
-          details={
-            "NGIT mission is to achieve the integration, comprehensive excellences and internationalization."
-          }
-        />
-        <Card
-          img={vission}
-          title={"VISSION"}
-          details={
-            "NGIT aim is doing research on Advance Science & Technology that have highly impact on personal life as well as our nation."
-          }
-        />
-        <Card
-          img={values}
-          title={"VALUES"}
-          details={
-            "Ethically responsible, collaboration, transparent and accountable."
-          }
-        />
+        {introData.map((item) => (
+          <Card
+            key={item.title}
+            img={item.img}
+            title={item.title}
+            details={item.details}
+          />
+        ))}
       </div>
     </div>
   );

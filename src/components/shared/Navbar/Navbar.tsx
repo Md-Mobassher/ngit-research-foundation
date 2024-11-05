@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="flex flex-wrap justify-between items-center ">
           <div className="flex items-center text-sm ">
             <div className="flex justify-center items-center lg:gap-2 gap-1 mr-2">
-              <FaMobileAlt /> <p> +8801737632508</p>
+              <FaMobileAlt /> <p> +8801996377947</p>
             </div>
 
             <div className="md:flex justify-center items-center lg:gap-2 gap-1 hidden ">

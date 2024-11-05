@@ -59,7 +59,7 @@ const Footer = () => {
           <p className="text-center text-md">
             Design & Developed By{" "}
             <a
-              href="https://dev-mobassher.web.app"
+              href="https://mobassher.vercel.app"
               target="_blank"
               className="text-slate-500 hover:text-blue-500 font-semibold"
             >
