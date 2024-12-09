@@ -24,7 +24,7 @@ const assets = {
     banner7: require("@/assets/banner/banner-7.png"),
   },
   governance: {
-    founder: require("@/assets/governance/founder.png"),
+    founder: require("@/assets/governance/founder.jpg"),
     advisor: require("@/assets/governance/advisor.png"),
     itSpecialist: require("@/assets/governance/mobassher.png"),
   },
